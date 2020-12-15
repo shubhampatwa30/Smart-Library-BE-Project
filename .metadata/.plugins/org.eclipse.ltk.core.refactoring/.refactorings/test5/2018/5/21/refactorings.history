@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;JavaArduinoComm.java&apos; to &apos;test4/src/test4&apos;&#x0D;&#x0A;- Original project: &apos;test5&apos;&#x0D;&#x0A;- Destination element: &apos;test4/src/test4&apos;&#x0D;&#x0A;- Original element: &apos;test5.JavaArduinoComm.java&apos;" description="Copy compilation unit" destination="=test4/src&lt;test4" element1="/src&lt;test5{JavaArduinoComm.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1527244744961" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<category>
+<pattern>* symptoms * high blood sugar*</pattern>
+<template>Symptoms of high blood sugar include:
+          1.Extreme thirst
+          2.Frequent urination 
+          3.Dry skin
+          4.Hunger
+          5.Blurred vision
+          6.drowsiness and nausea.
+
+</template>
+</category>
+<category>
+<pattern>* detect high blood sugar</pattern>
+<template>Symptoms of high blood sugar include:
+          1.Extreme thirst
+          2.Frequent urination 
+          3.Dry skin
+          4.Hunger
+          5.Blurred vision
+          6.drowsiness and nausea.
+
+</template>
+</category>
+<category>
+<pattern>* detect high blood sugar *</pattern>
+<template>Symptoms of high blood sugar include:
+          1.Extreme thirst
+          2.Frequent urination 
+          3.Dry skin
+          4.Hunger
+          5.Blurred vision
+          6.drowsiness and nausea.
+
+</template>
+</category>
+<category>
+<pattern>* symptoms * low blood sugar*</pattern>
+<template>Symptoms of low blood sugar include:
+          1.Shaking 
+          2.Irritability
+          3.Fatigue
+          4.Hunger
+          5.Blurred vision
+          6.Fast heart beat
+
+</template>
+</category>
+<category>
+<pattern>* symptoms * low blood sugar*</pattern>
+<template>Symptoms of low blood sugar include:
+          1.Shaking 
+          2.Irritability
+          3.Fatigue
+          4.Hunger
+          5.Blurred vision
+          6.Fast heart beat
+
+</template>
+</category>
+<category>
+<pattern>* detect low blood sugar</pattern>
+<template>Symptoms of low blood sugar include:
+          1.Shaking 
+          2.Irritability
+          3.Fatigue
+          4.Hunger
+          5.Blurred vision
+          6.Fast heart beat
+
+</template>
+</category>
+<category>
+<pattern>What should be a daily diet for a patient with Type 1 diabetes?</pattern>
+<template>Diabetes type 1 diet should include:
+          1.Variety of food containing unsaturated fats such as nuts, avocados and oily fish
+          2.Avoid processed food
+          3.High fibre food
+          4.Eat more fruits and vegetables
+          5.Include beans and lentils in your diet
+          6.Reduce or avoid intake of salt, sugar and alcohol
+
+</template>
+</category>
+<category>
+<pattern>* Type 1 diabetes eat?</pattern>
+<template>Diabetes type 1 diet should include:
+          1.Variety of food containing unsaturated fats such as nuts, avocados and oily fish
+          2.Avoid processed food
+          3.High fibre food
+          4.Eat more fruits and vegetables
+          5.Include beans and lentils in your diet
+          6.Reduce or avoid intake of salt, sugar and alcohol
+
+</template>
+</category>
+
+<category>
+<pattern>what is good and bad fat</pattern>
+<template>Fat is classified in two categories, saturated and unsaturated. Un-saturated fat is healthy and reduces the risk of heart disease while saturated and trans fat are bad and increase the risk of the heart ailment.
+
+</template>
+</category>
+
+<category>
+<pattern>* good fat?</pattern>
+<template>Fat is classified in two categories, saturated and unsaturated. Un-saturated fat is healthy and reduces the risk of heart disease while saturated and trans fat are bad and increase the risk of the heart ailment.
+
+</template>
+</category>
+
+<category>
+<pattern>*bad fat?</pattern>
+<template>Fat is classified in two categories, saturated and unsaturated. Un-saturated fat is healthy and reduces the risk of heart disease while saturated and trans fat are bad and increase the risk of the heart ailment.
+
+</template>
+</category>
+<category>
+<pattern>* BMR </pattern>
+<template>For Men: [13.75 x weight] + [5 x height] – [6.76 x age] + 66
+For Women: [9.56 x weight] + [1.85 x height] – [4.68 x age] + 655
+</template>
+</category>
+<category>
+<pattern>*  BMR *</pattern>
+<template>For Men: [13.75 x weight] + [5 x height] – [6.76 x age] + 66
+For Women: [9.56 x weight] + [1.85 x height] – [4.68 x age] + 655
+</template>
+</category>
+<category>
+<pattern>* Basal Metabolic Rate</pattern>
+<template>
+For Men: [13.75 x weight] + [5 x height] – [6.76 x age] + 66
+For Women: [9.56 x weight] + [1.85 x height] – [4.68 x age] + 655
+</template>
+</category>
+<category>
+<pattern>* Basal Metabolic Rate *</pattern>
+<template>
+For Men: [13.75 x weight] + [5 x height] – [6.76 x age] + 66
+For Women: [9.56 x weight] + [1.85 x height] – [4.68 x age] + 655
+</template>
+</category>
+<category>
+<pattern>* water * consume * </pattern>
+<template>
+Men: 13 cups (3 liters) of water per day
+Women: 9 Cups ( 2.2 liters) of water per day
+</template>
+</category>
+<category>
+<pattern>* water * DRINK *</pattern>
+<template>
+Men: 13 cups (3 liters) of water per day
+Women: 9 Cups ( 2.2 liters) of water per day
+</template>
+</category>
+<category>
+<pattern>* sources of good fats</pattern>
+<template>
+         1.Avocados
+         2.cheese
+         3.dark chocolate
+         4.whole eggs
+         5.Fatty fish like salmon,trout,mackrel and sardines
+
+</template>
+</category>
+<category>
+<pattern>* type 2 diabetes * avoided</pattern>
+<template>
+        1. Eat snacks and meals throughout the day, and do not go longer without eating
+        2.Restrict yourself to the food rich in sodium, fat and sugar
+        3.Eat more fibre containing foods like vegetables, fruit and whole grains
+        4.Drink water instead of sweetened beverages
+</template>
+</category>
+
+<category>
+<pattern> * avoid type 2 diabetes </pattern>
+<template>
+        1. Eat snacks and meals throughout the day, and do not go longer without eating
+        2.Restrict yourself to the food rich in sodium, fat and sugar
+        3.Eat more fibre containing foods like vegetables, fruit and whole grains
+        4.Drink water instead of sweetened beverages
+</template>
+</category>
+
+
+<category>
+<pattern>* balanced diet * adult * </pattern>
+<template>
+        On a single day, balanced diet of an adult should comprise of:
+ Protein – 50 grams
+Fat – 70 grams
+Carbohydrates – 310 grams
+Sugars – 90 grams
+Sodium – 2.3 grams
+Dietary Fibre – 30 grams
+Saturated Fatty Acids – 24 grams
+Total Energy per day – 8,700 kilojoules
+</template>
+</category>
+
+<category>
+<pattern> * treatment * type 2 diabetes </pattern>
+<template>
+        1. physical exercise
+        2.quit smoking
+        3.weight loss
+        4.diabetic diet
+        5.nutrition counselling
+</template>
+</category>
+
+<category>
+<pattern> * treatment * type 1 diabetes </pattern>
+<template>
+        Treatment aims at maintaining normal blood sugar levels through regular monitoring, insulin therapy,diet and exercise.
+</template>
+</category>
+
+<category>
+<pattern> * sugar level for diabetic *</pattern>
+<template>
+        TARGET LEVELS          UPON WAKING           BEFORE MEAL       90 MINS AFTER MEAL
+        1.TYPE 2                                     4 - 7 mmol/L       UNDER 8.5 mmol/L
+        2.TYPE 1               5-7 mmol/L            4 - 7 mmol/L       5-9 mmol/L
+        3.CHILDREN(TYPE 1)     4 - 7 mmol/L          4 - 7 mmol/L       5-9 mmol/L     
+</template>
+</category>
+
+<category>
+<pattern> * diabetes </pattern>
+<template>
+        A disease in which the body's ability to produce or respond to the harmone insulin is impaired, resulting in abnormal meabolism of carbohydrates and elevated levels of glucose in the blood.
+</template>
+</category>
+
+<category>
+<pattern> * symptoms * heart diesease </pattern>
+<template>
+        1. shortness of breath
+        2. fatigue
+        3. dizziness
+        4. leg swelling
+        5. chest pressure that may go down the arm
+</template>
+</category>
+
+<category>
+<pattern> how long therapy takes to show results </pattern>
+<template>
+       Any counseling begins with your therapist understanding you better and gaining perspective about your personality preferences, needs, and the difficulties you are facing. Each counseling session lasts for around 60 minutes and the frequency of sessions will be best determined by your therapist based upon your personality and the severity of your issue.
+</template>
+</category>
+
+<category>
+<pattern> * therapy</pattern>
+<template>
+      Therapy is the oppurtunity to discuss your thoughts and feelings about any issue that you face in everyday life that you may wish to explore and understand better in a professional and confidential setting.
+</template>
+</category>
+<category>
+<pattern> * psychological disorders </pattern>
+<template>
+          1.Anxiety
+          2.Depression
+          3.Eating disorder
+          4.obessive compulsive disorder
+          5.Sleeping disorder
+        
+</template>
+</category>
+
+<category>
+<pattern> * Depression </pattern>
+<template>
+          A mental health disorder characteroised by persistently depressed mood or loss of interest in activities,czzusing significant impairment in daily life.
+        
+</template>
+</category>
+
+<category>
+<pattern> * symptoms * depression </pattern>
+<template>
+         Anxiety,apathy,general discontent,guilt,hopelessness,loss of interest,mood swings,excessive hunger,early awakening,excess sleepyness,insomania,agitation,excessive crying,irritability,lack of concentrtion,thoughts of suicide etc.
+        
+</template>
+</category>
+<category>
+<pattern> * treat depression </pattern>
+<template>
+The mainstay of treatment is usually medication, talk therapy or a combination of the two. Increasingly, research suggests that these treatments may normalise brain changes associated with depression.
+         Therapies: cognitive behavioral therapy, behaviour therapy, pschyotherapy
+         Medications:Selective serotonin reuptake inhibitor(SSRI),Antidepressant and anxiolytic
+         Medical procedure:Electroconvulsive therapy
+        
+        
+</template>
+</category>
+<category>
+<pattern> * stress </pattern>
+<template>
+          In psychology, stress is a feeling of strain and pressure. Stress is a type of psychological pain. Small amounts of stress may be desired, beneficial, and even healthy. Positive stress helps improve athletic performance.
+</template>
+</category>
+<category>
+<pattern> * manage stress </pattern>
+<template>
+          1.Prioritize your health
+          2.Get proper sleep
+          3.Practice deep Breathing
+          4.Stay hydrated
+          5.Learn to say No
+        </template>
+</category>
+<category>
+<pattern> * factors induce stress </pattern>
+<template>
+          1.Emotional problems
+          2.Being unhappy
+          3.Long working hours
+          4.facing discrimination and harassement  
+          5.Traumatic event
+        
+</template>
+</category>
+
+</aiml>

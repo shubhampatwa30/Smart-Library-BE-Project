@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<category>
+<pattern>what are the symptoms for high blood sugar </pattern>
+<template>Symptoms for high blood sugar level include:
+1.EXTREME THIRST
+2.FREQUENT URINATION
+3.DRY SKIN
+4.HUNGER
+5.BLURRED VISION
+6.DROWSINESS AND NAUSEA. 
+</template>
+</category>
+
+<category><pattern>* detect high blood sugar </pattern>
+<template>
+Symptoms for high blood sugar level include:
+1.EXTREME THIRST
+2.FREQUENT URINATION
+3.DRY SKIN
+4.HUNGER
+5.BLURRED VISION
+6.DROWSINESS AND NAUSEA. 
+</template>
+</category>
+
+<category><pattern>* detect high blood sugar* </pattern>
+<template>
+Symptoms for high blood sugar level include:
+1.EXTREME THIRST
+2.FREQUENT URINATION
+3.DRY SKIN
+4.HUNGER
+5.BLURRED VISION
+6.DROWSINESS AND NAUSEA. 
+</template>
+</category>
+
+
+
+
+<category><pattern>*symptoms * low blood sugar* </pattern>
+<template>Symptoms for high blood sugar levels include:
+1.Shaking
+2.Fast heart beat
+3.EXcessive sweeting
+4.HUNGER
+5.Impaired VISION
+6.Irritability. 
+ </template>
+</category>
+
+<category><pattern>*detect low blood sugar </pattern>
+<template>Symptoms for high blood sugar levels include:
+1.Shaking
+2.Fast heart beat
+3.EXcessive sweeting
+4.HUNGER
+5.Impaired VISION
+6.Irritability. 
+ </template>
+</category>
+
+<category><pattern>*detect low blood sugar* </pattern>
+<template>Symptoms for high blood sugar levels include:
+1.Shaking
+2.Fast heart beat
+3.EXcessive sweeting
+4.HUNGER
+5.Impaired VISION
+6.Irritability. 
+ </template>
+</category>
+
+
+
+
+
+
+</aiml>

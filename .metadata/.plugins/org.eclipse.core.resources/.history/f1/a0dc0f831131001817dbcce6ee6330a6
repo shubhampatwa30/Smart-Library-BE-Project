@@ -1,0 +1,73 @@
+package test5;
+
+import arduino.*;
+//import test4.Database;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+
+import java.util.*;
+import java.sql.*;
+
+
+public class JavaArduinoComm {
+	static String rfid,read,read1;
+	public static void main(String[] args) throws Exception {
+		Arduino obj = new Arduino("COM3", 9600);
+		obj.openConnection();
+		System.out.println("Started");
+		Scanner sc = new Scanner(System.in);
+		//int x= sc.nextInt();
+		int x=1;
+		switch(x) {
+		case 1://issue
+			while(true)
+			{
+				read = obj.serialRead();
+				int length = read.length();
+				if(length>=10)
+				{
+					System.out.println(read);
+					read1 = (read.substring(0, read.length() - 1));
+					student();
+					break;
+				}
+			}
+			System.out.println(read);
+			obj.closeConnection();
+			System.out.println("connection terminated");
+			break;
+		}
+
+
+
+	}
+	public static void student()
+	{
+
+		try {
+			Connection con = Database.dataConnection();
+			Statement stmt=con.createStatement();
+			System.out.println(read);
+			ResultSet rs=stmt.executeQuery("select * from library.student where rfid='"+read+"'");
+			while(rs.next())
+			{  System.out.println(rs.getInt(1)+"  "+rs.getString(2)+"  "+rs.getInt(3)+"  "+rs.getString(4)+"	"+rs.getString(5)+"  "+rs.getString(6)+"  "+rs.getString(7)+"  "+rs.getInt(8));
+			break;
+			}
+	
+			con.close();
+		}
+		catch (Exception e) {
+			System.err.println(e.toString());
+		}
+
+
+
+
+	}
+
+
+}

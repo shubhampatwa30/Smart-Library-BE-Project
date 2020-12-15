@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<category>
+<pattern>what are the symptoms for high blood sugar </pattern>
+<template>Symptoms for high blood sugar level include:
+1.EXTREME THIRST
+2.FREQUENT URINATION
+3.DRY SKIN
+4.HUNGER
+5.BLURRED VISION
+6.DROWSINESS AND NAUSEA. 
+</template>
+</category>
+</aiml>
